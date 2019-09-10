@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Movie} from '../movies'
+import {MOVIE} from '../move-starter'
 
 @Component({
   selector: 'app-movie-info-component',
@@ -8,7 +9,7 @@ import {Movie} from '../movies'
 })
 export class MovieInfoComponentComponent implements OnInit {
 
-  movies = Movie;
+  movies = MOVIE;
 
   constructor() { }
 

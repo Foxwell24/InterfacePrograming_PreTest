@@ -3,6 +3,6 @@ export class Movie {
 	Rating: number
 	ShortDescription: string
 	Runtime: number
-	ReleaseDate: Date
+	ReleaseDate: number
 	MovieThumbnail: string
   }
